@@ -1,0 +1,29 @@
+//Hide link icon
+.url .SocialLinks-link-icon{
+  display: none;
+}
+//Target our link and turn it into a button
+.tweak-social-icons-shape-circle .SocialLinks-link:first-of-type{
+  border-radius: 0;
+  padding: 10px 70px 10px 10px;
+  background-color: #a1cf68;
+  color: white;
+ }
+//Change button styling on hover
+.tweak-social-icons-shape-circle .SocialLinks-link:first-of-type:hover{
+  background-color: #fff;
+  color: #033b59;
+ }
+
+//Add Donate text
+.tweak-social-icons-shape-circle .SocialLinks-link:first-of-type::before{
+  content: "Donate";
+  margin-left: -3px;
+
+  
+}
+ //Allow Donate text to stay on hover
+.tweak-social-icons-shape-circle .SocialLinks-link:first-of-type::before:hover{
+  content: "Donate";
+  margin-left: -3px;
+}
