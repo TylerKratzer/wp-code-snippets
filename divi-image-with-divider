@@ -1,0 +1,42 @@
+Before code:
+
+width: 40%;
+    height: 1px;
+
+    /* Changed to border-top (instead of border) to simulate a line better */
+    border-top: 1px solid #533091; 
+
+    /* Styles added */
+    display: inline-block;
+    content: '';
+  
+    /* Use padding to vertical align the line */
+    /* Use padding in em for a responsive icon height */
+    padding-top: 0.5em; 
+  
+    /* Use margins to give the lines some spacement around the icon */
+    /* Use margins in % for a responsive spacement */
+    margin-left: 2%; 
+    margin-right: 2%
+
+
+
+After code:
+width: 40%;
+    height: 1px;
+
+    /* Changed to border-top (instead of border) to simulate a line better */
+    border-top: 1px solid #533091; 
+
+    /* Styles added */
+    display: inline-block;
+    content: '';
+  
+    /* Use padding to vertical align the line */
+    /* Use padding in em for a responsive icon height */
+    padding-top: 0.5em; 
+  
+    /* Use margins to give the lines some spacement around the icon */
+    /* Use margins in % for a responsive spacement */
+    margin-left: 2%; 
+    margin-right: 2%;
